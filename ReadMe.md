@@ -30,3 +30,37 @@ The modelling dataset covers 15 May 1997 to 1 November 2023. The selected target
 
 **Target:** `Groundwater Level Quarterly Manual (Meter)`
 
+**Predictors:**
+
+- `GWL_Lag_1` , `GWL_Lag_2` , `GWL_Lag_3`
+- `Rainfall_prev_1m` , `Rainfall_prev_3m` , `Rainfall_prev_6m`
+
+The groundwater lags are calculated within each unique well, identified using district, station name, latitude and longitude. Rainfall is matched to the well location using the nearest IMD grid cell.
+
+### Methodology
+
+#### Preprocessing
+
+1. Parse observation dates and sort measurements chronologically within each well.
+2. Retain the study districts and selected seasonal observations.
+3. Derive monthly rainfall totals and antecedent rainfall windows.
+4. Construct three previous-observation groundwater lag features per well.
+5. Remove records that lack required predictor or target values.
+6. Use a chronological 80/20 holdout split, keeping observations at the cutoff timestamp together.
+
+#### Regression Models
+
+1. Linear Regression with Lags
+2. Polynomial Regression (degree 2)
+3. Ridge Regression
+4. K-Nearest Neighbours (KNN) Regressor
+5. Multi-Layer Perceptron (MLP) Regressor
+
+Feature scaling is used in the model pipelines. The MLP configuration used in the reported run has hidden layers of 100 and 50 units, with a maximum of 2,000 iterations and a fixed random seed.
+
+#### Evaluation Metrics
+
+- **MAE:** average absolute prediction error; lower is better.
+- **RMSE:** square root of mean squared error; lower is better and larger errors receive more weight.
+- **R²:** coefficient of determination; higher is generally better. R² is not a percentage accuracy measure.
+
