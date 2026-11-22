@@ -240,39 +240,51 @@ plt.close("all")
 # graph-4 : station-wise groundwater levels
 selected_stations = {
     "KARNAL" : ["Kalri Jagir S", "Amin S"],
-    "KURUKSHETRA" : ["Hatira (s)", "Pehowa (D)"]
+    "KURUKSHETRA" : ["Pehowa (D)"]
 }
 
-station_data = df [
-    df.apply(
-        lambda row: row["Station"] in selected_stations.get(
-            row["District"], []
-        ),
-        axis=1
-    )
-].copy()
+for district, stations in selected_stations.items():
 
-station_data["Station Label"] = (
-    station_data["District"] + " - " + station_data["Station"]
-)
+    for station in stations:
 
-station_data = station_data.sort_values("Data Acquisition Time")
+        station_data = df[
+            (df["District"] == district) &
+            (df["Station"].str.strip() == station)
+        ].copy()
 
-plt.figure(figsize = (13, 7))
+        if station_data.empty:
+            print(f"No data found for {station} in {district}")
+            continue
 
-sns.lineplot(
-    data = station_data,
-    x = "Data Acquisition Time",
-    y = target,
-    hue = "Station Label",
-    marker = "o"
-)
+        station_data = station_data.sort_values(
+            "Data Acquisition Time"
+        )
 
-plt.title("Groundwater Level Changes in Selected Monitoring Wells")
-plt.xlabel("Year")
-plt.ylabel("Groundwater Depth (mbgl)")
-plt.xticks(rotation = 45)
-plt.legend(title="Monitoring Well")
-plt.tight_layout()
+        plt.figure(figsize = (11, 5))
 
-plt.savefig("results/graphs/station_wise_groundwater_levels.png")
+        sns.lineplot(
+            data = station_data,
+            x = "Data Acquisition Time",
+            y = target,
+            marker = "o"
+        )
+
+        plt.title(
+            f"Groundwater Level Changes - {station}, {district}"
+        )
+
+        plt.xlabel("Year")
+        plt.ylabel("Groundwater Depth (mbgl)")
+        plt.xticks(rotation = 45)
+        plt.tight_layout()
+
+        filename = {
+            f"{district.lower()}_"
+            f"{station.lower().replace(" ", "_").replace("(", "").replace(")", "")}"
+            f"_groundwater_levels.png"
+        }
+
+        plt.savefig(f"results/graphs/{filename}", format = "png")
+        plt.show()
+        plt.close()
+        print(f"Graph saved: {filename}")
