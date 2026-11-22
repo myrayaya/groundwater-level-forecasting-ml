@@ -1,0 +1,475 @@
+District,Station,Latitude,Longitude,Season,Observations,Slope,R2,Reliability,Trend
+KARNAL,Ajanthali-Pz,29.82555556,76.87444444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Amin S,29.87222222,76.84444444,Post-Monsoon,37.0,0.9145894994608124,0.8479722756712212,Reliable,Declining
+KARNAL,Amin S,29.87222222,76.84444444,Pre-Monsoon,17.0,0.860521565683188,0.9706645851095697,Reliable,Declining
+KARNAL,Amupur Chakda,29.77388889,76.74138889,Post-Monsoon,15.0,1.2783660455160533,0.6599059836074056,Reliable,Declining
+KARNAL,Amupur Chakda,29.77388889,76.74138889,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Amupur-PZ,29.76,76.72583333,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Amupur-PZ,29.76,76.72583333,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Anchla-Pz,29.57277778,76.84944444,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Anchla-Pz,29.57277778,76.84944444,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Andhera-PZ,29.63722222,77.09388889,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Anjanthali,29.83,76.89166667,Post-Monsoon,16.0,0.6393315596488625,0.5274664731927874,Reliable,Declining
+KARNAL,Anjanthali,29.83,76.89166667,Pre-Monsoon,9.0,0.42028550606016873,0.5276503693525693,Limited,Declining
+KARNAL,Anjanthali-Pz,29.84305556,76.88333333,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Anjanthali-Pz,29.84305556,76.88333333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Assandh-Pz,29.52277778,76.60416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Assandh-Pz,29.52277778,76.60416667,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Badhera,29.87083333,76.775,Post-Monsoon,19.0,0.5886381373891807,0.6265815029821629,Reliable,Declining
+KARNAL,Badhera,29.87083333,76.775,Pre-Monsoon,8.0,0.15885189934883945,0.1423108991612653,Limited,Declining
+KARNAL,Badson- PZ,29.92055556,76.96722222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Badson- PZ,29.92055556,76.96722222,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Bala,29.50277778,76.72472222,Post-Monsoon,16.0,0.6600027642360016,0.7236067972465783,Reliable,Declining
+KARNAL,Bala,29.50277778,76.72472222,Pre-Monsoon,8.0,0.6348220208469728,0.8480968656559073,Limited,Declining
+KARNAL,Baldi,29.71666667,76.99166667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Balhera-m,29.475,77.0875,Post-Monsoon,14.0,0.7437297085592985,0.49935227928390213,Reliable,Declining
+KARNAL,Balhera-m,29.475,77.0875,Pre-Monsoon,8.0,0.9397723831492611,0.6442721718243449,Limited,Declining
+KARNAL,Balhera-s,29.475,77.0875,Post-Monsoon,14.0,0.6935257220712054,0.5450104208091816,Reliable,Declining
+KARNAL,Balhera-s,29.475,77.0875,Pre-Monsoon,12.0,0.5444907421629618,0.6660059515350776,Reliable,Declining
+KARNAL,Balla- Pz,29.50277778,76.75055556,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Balla- Pz,29.50277778,76.75055556,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Baragaon-Pz,29.75638889,77.06611111,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Baragaon-Pz,29.75638889,77.06611111,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Bastali,29.73611111,76.725,Post-Monsoon,29.0,0.9489986999090834,0.8676208762376592,Reliable,Declining
+KARNAL,Bastali,29.73611111,76.725,Pre-Monsoon,13.0,0.7635302333128201,0.7618485672448985,Reliable,Declining
+KARNAL,Biana,29.84027778,77.11666667,Post-Monsoon,10.0,-0.21363277929337404,0.28184806498436005,Reliable,Improving
+KARNAL,Biana,29.84027778,77.11666667,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Budanpur-Pz,29.89027778,77.01666667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Budanpur-Pz,29.89027778,77.01666667,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Buttan Kheri S,29.9,76.99583333,Post-Monsoon,5.0,0.699115100484602,0.8402987231907212,Limited,Declining
+KARNAL,Buttan Kheri S,29.9,76.99583333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,CHORKARSA,29.637778,76.672778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Chaugawan,29.92916667,77.19444444,Post-Monsoon,5.0,-0.07814292810428326,0.042610293448682175,Limited,Improving
+KARNAL,Chaugawan,29.92916667,77.19444444,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Chaura-Pz,29.55833333,77.0375,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Chochra-PZ,29.63222222,76.63111111,Post-Monsoon,15.0,0.5418871851617211,0.3571127765908229,Reliable,Declining
+KARNAL,Chochra-PZ,29.63222222,76.63111111,Pre-Monsoon,5.0,0.7240142271907918,0.9505645455014147,Limited,Declining
+KARNAL,Choor Karsa-PZ,29.62805556,76.67444444,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Choor Karsa-PZ,29.62805556,76.67444444,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Chorkharsa-Pz,29.62666667,76.67277778,Post-Monsoon,14.0,0.5758763556074031,0.4875977048831591,Reliable,Declining
+KARNAL,Chorkharsa-Pz,29.62666667,76.67277778,Pre-Monsoon,6.0,0.44812883747175963,0.8205139087509289,Limited,Declining
+KARNAL,Chorpur 1(d),29.78333333,77.11666667,Post-Monsoon,19.0,-0.11364337694544042,0.013547200025180632,Reliable,Improving
+KARNAL,Chorpur 1(d),29.78333333,77.11666667,Pre-Monsoon,7.0,0.24596321263621623,0.46324374580238825,Limited,Declining
+KARNAL,Chorpur 2(d),29.65,77.11666667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Dadupur Khurd-Pz,29.76583333,76.97222222,Post-Monsoon,9.0,0.3925331974885204,0.5363656662861542,Limited,Declining
+KARNAL,Dadupur Khurd-Pz,29.76583333,76.97222222,Pre-Monsoon,6.0,0.876558965052747,0.7372245296536482,Limited,Declining
+KARNAL,Dadupur-PZ,29.7675,76.97305556,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Darar,29.85416667,77.1,Post-Monsoon,5.0,-0.6291324461526349,0.8636883455434375,Limited,Improving
+KARNAL,Dhomsi(shallow),29.94166667,77.05,Post-Monsoon,6.0,0.49275454873562413,0.34598895827252973,Limited,Declining
+KARNAL,Dhomsi(shallow),29.94166667,77.05,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Dingar Majra-Pz,29.50277778,76.92083333,Post-Monsoon,12.0,0.7050678622188399,0.7121859907916811,Reliable,Declining
+KARNAL,Dingar Majra-Pz,29.50277778,76.92083333,Pre-Monsoon,7.0,0.5956528121372657,0.2152465086778477,Limited,Declining
+KARNAL,Domsi D,29.94166667,77.05,Post-Monsoon,19.0,0.12480209586212045,0.23433438976519552,Reliable,Declining
+KARNAL,Domsi D,29.94166667,77.05,Pre-Monsoon,6.0,0.18558599939883105,0.1473000636479687,Limited,Declining
+KARNAL,Dupedi-DW,29.50833333,76.65888889,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Faridpur-Pz,29.46111111,77.0375,Post-Monsoon,8.0,0.8330217563844907,0.18394661908197604,Limited,Declining
+KARNAL,Faridpur-Pz,29.46111111,77.0375,Pre-Monsoon,5.0,-0.1241785287793539,0.9177229886644135,Limited,Improving
+KARNAL,Gangateri-Pz,29.47777778,76.50388889,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Gangateri-Pz,29.47777778,76.50388889,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Gangatheri,29.46944444,76.4875,Post-Monsoon,13.0,1.2346244730952858,0.781843368731374,Reliable,Declining
+KARNAL,Gangatheri,29.46944444,76.4875,Pre-Monsoon,7.0,1.6173352650613309,0.9094688581573479,Limited,Declining
+KARNAL,Garhi Khajur M,29.53333333,77.05694444,Post-Monsoon,38.0,0.3012887245801377,0.5715092803557981,Reliable,Declining
+KARNAL,Garhi Khajur M,29.53333333,77.05694444,Pre-Monsoon,17.0,0.37658742163644415,0.8415718364578593,Reliable,Declining
+KARNAL,Garhi Khajur S,29.53333333,77.05694444,Post-Monsoon,16.0,-0.3376461355387055,0.451802382755148,Reliable,Improving
+KARNAL,Garhi Khajur S,29.53333333,77.05694444,Pre-Monsoon,7.0,0.12341316745714212,0.14423646467025236,Limited,Declining
+KARNAL,Garhikhajur (shallow),29.53333333,77.05694444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Gharaunda-Pz,29.53611111,76.96944444,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Gharaunda-Pz,29.53611111,76.96944444,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Ghiar-Pz,29.77805556,77.09694444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Ghiar-Pz,29.77805556,77.09694444,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Gondar-Pz,29.65833333,76.75,Post-Monsoon,15.0,0.9761326094081537,0.7007347648014701,Reliable,Declining
+KARNAL,Gondar-Pz,29.65833333,76.75,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Gondhar,29.64833333,76.75472222,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Gondhar,29.64833333,76.75472222,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Indri,29.88055556,77.0625,Post-Monsoon,20.0,0.11200937298637607,0.15695935842864636,Reliable,Declining
+KARNAL,Indri,29.88055556,77.0625,Pre-Monsoon,13.0,0.09122271477322699,0.29144939881577836,Reliable,Declining
+KARNAL,Islam Nagar-Pz-D,29.875,77.1125,Post-Monsoon,14.0,-0.16851367231304,0.018905350835174046,Reliable,Improving
+KARNAL,Islam Nagar-Pz-D,29.875,77.1125,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Islam Nagar-Pz-M,29.875,77.1125,Post-Monsoon,14.0,-0.32148610270795797,0.607654525927079,Reliable,Improving
+KARNAL,Islam Nagar-Pz-M,29.875,77.1125,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Islam Nagar-Pz-S,29.875,77.1125,Post-Monsoon,14.0,-0.29850408231227404,0.4497621411947187,Reliable,Improving
+KARNAL,Islam Nagar-Pz-S,29.875,77.1125,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Jabhala-Pz,29.50083333,76.50277778,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Jabhala-Pz,29.50083333,76.50277778,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Jaisingh Pura-Dw,29.54166667,76.63111111,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Jaisingh Pura-Dw,29.54166667,76.63111111,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Jaisinghpura,29.54166667,76.63333333,Post-Monsoon,12.0,0.9867402210789169,0.9148166567235709,Reliable,Declining
+KARNAL,Jaisinghpura,29.54166667,76.63333333,Pre-Monsoon,7.0,0.4968972751080225,0.9913289420425904,Limited,Declining
+KARNAL,Jalmana,29.59166667,76.70833333,Post-Monsoon,16.0,0.6354747767400488,0.5577060903575972,Reliable,Declining
+KARNAL,Jalmana,29.59166667,76.70833333,Pre-Monsoon,10.0,0.4805030516920872,0.5177248376568697,Reliable,Declining
+KARNAL,Jalmana PZ,29.66944444,76.72361111,Post-Monsoon,11.0,0.6642794161346334,0.7934296217995558,Reliable,Declining
+KARNAL,Jalmana PZ,29.66944444,76.72361111,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Jamba,29.81666667,76.76666667,Post-Monsoon,19.0,0.5781860391666268,0.5912165081017907,Reliable,Declining
+KARNAL,Jamba,29.81666667,76.76666667,Pre-Monsoon,9.0,0.35507064711626085,0.2855595412862584,Limited,Declining
+KARNAL,Jaroli Khurd-Pz,29.74027778,77.10416667,Post-Monsoon,19.0,-0.1705887051404752,0.41890710795535707,Reliable,Improving
+KARNAL,Jaroli Khurd-Pz,29.74027778,77.10416667,Pre-Monsoon,7.0,0.27748351547865646,0.8879433631193392,Limited,Declining
+KARNAL,Jhanjari-Pz,29.75694444,76.96944444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Jhanjari-Pz,29.75694444,76.96944444,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Jundla,29.65,76.875,Post-Monsoon,12.0,0.11732405002561633,0.026700799631550906,Reliable,Declining
+KARNAL,Jundla,29.65,76.875,Pre-Monsoon,7.0,0.08699934486783868,0.014190342359808055,Limited,Declining
+KARNAL,Jundla1,29.64305556,76.86666667,Post-Monsoon,38.0,0.832527510912772,0.9301861677980906,Reliable,Declining
+KARNAL,Jundla1,29.64305556,76.86666667,Pre-Monsoon,21.0,0.7279966582871543,0.8880855435081041,Reliable,Declining
+KARNAL,Kachhwa,29.725,76.89444444,Post-Monsoon,17.0,0.6523750511337445,0.5389996276890868,Reliable,Declining
+KARNAL,Kachhwa,29.725,76.89444444,Pre-Monsoon,9.0,0.5014805956669788,0.37728464154198127,Limited,Declining
+KARNAL,Kachhwa Pz,29.725,76.89444444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Kachhwa Pz,29.725,76.89444444,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Kairiwali D,29.62222222,77.04166667,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Kairiwali D,29.62222222,77.04166667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Kairiwali M,29.62222222,77.04166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Kairiwali S,29.62222222,77.04166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Kalri Jagir S,29.94722222,77.13333333,Post-Monsoon,38.0,0.14761982993082223,0.12257801006134217,Reliable,Declining
+KARNAL,Kalri Jagir S,29.94722222,77.13333333,Pre-Monsoon,19.0,0.08241235672327013,0.22625350902979588,Reliable,Declining
+KARNAL,Kalri Khalsa,29.875,77.09166667,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Kalsi,29.86666667,76.95833333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Kalsi,29.86666667,76.95833333,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Karnal D,29.68333333,76.95,Post-Monsoon,28.0,0.2740983431395883,0.21010580900804818,Reliable,Declining
+KARNAL,Karnal D,29.68333333,76.95,Pre-Monsoon,15.0,0.825371822441247,0.7685175267587965,Reliable,Declining
+KARNAL,Kheri Sharfali,29.55833333,76.54166667,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Kheri Sharfali,29.55833333,76.54166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,KheriNaru-Pz-D,29.64861111,76.91361111,Post-Monsoon,14.0,-0.055018925381533586,0.007886436431254976,Reliable,Improving
+KARNAL,KheriNaru-Pz-D,29.64861111,76.91361111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,KheriNaru-Pz-M,29.64861111,76.91361111,Post-Monsoon,14.0,-0.2913599851182096,0.09662208605626765,Reliable,Improving
+KARNAL,KheriNaru-Pz-M,29.64861111,76.91361111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,KheriNaru-Pz-S,29.64861111,76.91361111,Post-Monsoon,12.0,-0.2091870167563678,0.07945066125705606,Reliable,Improving
+KARNAL,KheriNaru-Pz-S,29.64861111,76.91361111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Kiwana,29.60277778,76.78888889,Post-Monsoon,12.0,0.7137224862106465,0.519120746487421,Reliable,Declining
+KARNAL,Kiwana,29.60277778,76.78888889,Pre-Monsoon,7.0,0.5117424250380148,0.5731821784706758,Limited,Declining
+KARNAL,Kohnd S,29.50833333,76.98333333,Post-Monsoon,11.0,0.6326201923560231,0.7626932659860082,Reliable,Declining
+KARNAL,Kohnd S,29.50833333,76.98333333,Pre-Monsoon,8.0,0.919671213717885,0.9703494500575314,Limited,Declining
+KARNAL,Kurlan-Pz,29.50111111,76.50416667,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Kurlan-Pz,29.50111111,76.50416667,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Kutail M,29.58611111,77.02222222,Post-Monsoon,47.0,0.4879775305815985,0.8408512426385994,Reliable,Declining
+KARNAL,Kutail M,29.58611111,77.02222222,Pre-Monsoon,18.0,0.43229716812108676,0.9248836442171976,Reliable,Declining
+KARNAL,Kutail S,29.58611111,77.02222222,Post-Monsoon,21.0,0.09835053162650088,0.07217094758834919,Reliable,Declining
+KARNAL,Kutail S,29.58611111,77.02222222,Pre-Monsoon,8.0,0.16732947442359153,0.3836002415328175,Limited,Declining
+KARNAL,Majra Roran,29.7875,76.72916667,Post-Monsoon,37.0,1.2424624759931724,0.965263418690962,Reliable,Declining
+KARNAL,Majra Roran,29.7875,76.72916667,Pre-Monsoon,19.0,1.2001368334875522,0.9791593187821884,Reliable,Declining
+KARNAL,Majraroran,29.7875,76.72916667,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Majura,29.69166667,76.84166667,Post-Monsoon,32.0,0.971521197014644,0.8928439652185647,Reliable,Declining
+KARNAL,Majura,29.69166667,76.84166667,Pre-Monsoon,16.0,0.8883043532319067,0.784284511160147,Reliable,Declining
+KARNAL,Makhala,29.93333333,77.15416667,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Makhala S,29.93333333,77.15416667,Post-Monsoon,14.0,0.02423080138516877,0.006376969349278775,Reliable,Stable
+KARNAL,Makhala S,29.93333333,77.15416667,Pre-Monsoon,8.0,0.0692072926990815,0.036785827875295656,Limited,Declining
+KARNAL,Manak Majra-Pz,29.86583333,76.91111111,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Manak Majra-Pz,29.86583333,76.91111111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Manjura-Pz,29.69111111,76.84222222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Mehmadpur-Pz,29.725,77.11111111,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Mehmadpur-Pz,29.725,77.11111111,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Mohidinpur-Pz,29.50222222,77.00138889,Post-Monsoon,9.0,0.10828617792059719,0.08940239193737644,Limited,Declining
+KARNAL,Mohidinpur-Pz,29.50222222,77.00138889,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Motia,29.75694444,76.82638889,Post-Monsoon,13.0,0.41632197036594315,0.1356068431592967,Reliable,Declining
+KARNAL,Motia,29.75694444,76.82638889,Pre-Monsoon,6.0,0.257791310757619,0.11684752946109449,Limited,Declining
+KARNAL,Mound M,29.51805556,76.54722222,Post-Monsoon,41.0,0.9114950927092087,0.9394263574566578,Reliable,Declining
+KARNAL,Mound M,29.51805556,76.54722222,Pre-Monsoon,20.0,0.7770320474282594,0.9238730634908843,Reliable,Declining
+KARNAL,Mound S,29.51805556,76.54722222,Post-Monsoon,16.0,0.7638808729655467,0.6689936490409168,Reliable,Declining
+KARNAL,Mound S,29.51805556,76.54722222,Pre-Monsoon,8.0,0.5290215715857699,0.5668662348170687,Limited,Declining
+KARNAL,Munak,29.51805556,76.85138889,Post-Monsoon,10.0,0.25055346044225424,0.17772806800458116,Reliable,Declining
+KARNAL,Munak,29.51805556,76.85138889,Pre-Monsoon,7.0,0.24669438925982057,0.9758427439743337,Limited,Declining
+KARNAL,Mundh-dw,29.5175,76.54583333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Nalipur-Pz,29.69583333,77.11333333,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Nalipur-Pz,29.69583333,77.11333333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Nalvi Kalan-Pz,29.69388889,77.09861111,Post-Monsoon,17.0,-0.28984534829265873,0.609893363395256,Reliable,Improving
+KARNAL,Nalvi Kalan-Pz,29.69388889,77.09861111,Pre-Monsoon,7.0,0.34925190488715296,0.5468760646804307,Limited,Declining
+KARNAL,Nanhera,29.86944444,77.09166667,Post-Monsoon,35.0,0.08065480363804847,0.16476360233449808,Reliable,Declining
+KARNAL,Nanhera,29.86944444,77.09166667,Pre-Monsoon,14.0,0.20924723849419888,0.4719506838338236,Reliable,Declining
+KARNAL,Nasirpur-Pz,29.67222222,77.12777778,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Nasirpur-Pz,29.67222222,77.12777778,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Newal 1(m),29.73333333,77.05,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Newal 1(m),29.73333333,77.05,Pre-Monsoon,6.0,0.29872347790466036,0.510072852524173,Limited,Declining
+KARNAL,Newal 2(d),29.73333333,77.05,Post-Monsoon,8.0,0.044597157952064766,0.01891285169774645,Limited,Stable
+KARNAL,Newal 2(d),29.73333333,77.05,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Newal 3(d),29.73333333,77.05,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Newal 3(d),29.73333333,77.05,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Nilokheri-Pz,29.83111111,76.93333333,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Nilokheri-Pz,29.83111111,76.93333333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang,29.6875,76.75,Post-Monsoon,14.0,0.06006165448107125,0.015922641193576885,Reliable,Declining
+KARNAL,Nisang,29.6875,76.75,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang-Pz,29.69444444,76.75416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang-Pz,29.69444444,76.75416667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang-S,29.6875,76.75,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang-S,29.6875,76.75,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang1,29.68333333,76.75,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Nisang1,29.84944444,76.70416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Padhana-DW,29.49916667,76.71305556,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Padhana-DW,29.49916667,76.71305556,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Phurlak M,29.55,76.93333333,Post-Monsoon,44.0,0.6865369971844177,0.9298757931830353,Reliable,Declining
+KARNAL,Phurlak M,29.55,76.93333333,Pre-Monsoon,20.0,0.6163283365414556,0.9575209057998672,Reliable,Declining
+KARNAL,Phurlak S,29.55,76.93333333,Post-Monsoon,19.0,0.6346801615683457,0.4626471253910533,Reliable,Declining
+KARNAL,Phurlak S,29.55,76.93333333,Pre-Monsoon,8.0,0.18770844640042064,0.20725189602318314,Limited,Declining
+KARNAL,Phusgarh-Pz,29.69694444,77.03055556,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Phusgarh-Pz,29.69694444,77.03055556,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Raipur 1(m),29.85,76.95,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Raipur 1(m),29.85,76.95,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Rambha,29.78333333,76.98333333,Post-Monsoon,11.0,0.30364282976771656,0.17863020329632529,Reliable,Declining
+KARNAL,Rambha,29.78333333,76.98333333,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Rambha M,29.8,76.81666667,Post-Monsoon,10.0,0.5049160011497443,0.9248401197536354,Reliable,Declining
+KARNAL,Rambha M,29.8,76.81666667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Rambha-Pz,29.79638889,76.97666667,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Rambha-Pz,29.79638889,76.97666667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Randauli-Pz,29.83388889,77.13611111,Post-Monsoon,9.0,0.9358024381029693,0.3221802260448522,Limited,Declining
+KARNAL,Randauli-Pz,29.83388889,77.13611111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Ranwar-Pz,29.63527778,77.01861111,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Ranwar-Pz,29.63527778,77.01861111,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Rattak-Pz,29.5825,76.62555556,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Rattak-Pz,29.5825,76.62555556,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Sagga-Pz,29.76944444,76.84166667,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Sagga-Pz,29.76944444,76.84166667,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Salarpur-Pz,29.75083333,77.00166667,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Salwan,29.5,76.73472222,Post-Monsoon,19.0,0.7786039561222877,0.9027163881982114,Reliable,Declining
+KARNAL,Salwan,29.5,76.73472222,Pre-Monsoon,8.0,0.5523045823866735,0.7376070147366712,Limited,Declining
+KARNAL,Salwan-B,29.5,76.73472222,Post-Monsoon,17.0,1.312912450289428,0.8992402095878594,Reliable,Declining
+KARNAL,Salwan-B,29.5,76.73472222,Pre-Monsoon,6.0,0.5684837543795709,0.9051689678524806,Limited,Declining
+KARNAL,Sambli-Pz-M,29.75833333,76.8,Post-Monsoon,18.0,1.0430852877597439,0.032774782992648153,Reliable,Declining
+KARNAL,Sambli-Pz-M,29.75833333,76.8,Pre-Monsoon,5.0,0.8171656943863062,0.8864734010037522,Limited,Declining
+KARNAL,Sambli-Pz-S,29.75833333,76.8,Post-Monsoon,14.0,0.8589001822874542,0.8730616617049182,Reliable,Declining
+KARNAL,Sambli-Pz-S,29.75833333,76.8,Pre-Monsoon,7.0,0.8214358548031164,0.870024315953085,Limited,Declining
+KARNAL,Samora,29.94305556,77.04166667,Post-Monsoon,10.0,0.2655527351171677,0.19507344367919818,Reliable,Declining
+KARNAL,Samora,29.94305556,77.04166667,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Samora1,29.94305556,77.04166667,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Samora1,29.94305556,77.04166667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Saunkra,29.7875,76.8875,Post-Monsoon,23.0,1.1830255393116778,0.7412539008239025,Reliable,Declining
+KARNAL,Saunkra,29.7875,76.8875,Pre-Monsoon,14.0,0.6769733129946466,0.7927959635475346,Reliable,Declining
+KARNAL,Saunkra (deep),29.78472222,76.88,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Saunkra S,29.7875,76.8875,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Saunkra S,29.7875,76.8875,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Sekhpura 1(m),29.71666667,77.01666667,Post-Monsoon,24.0,0.20661650741887785,0.43379629278715226,Reliable,Declining
+KARNAL,Sekhpura 1(m),29.71666667,77.01666667,Pre-Monsoon,11.0,0.25194010402382144,0.6781676374577877,Reliable,Declining
+KARNAL,Sharfabad1,29.68888889,77.075,Post-Monsoon,7.0,0.18066149469078888,0.8562367730177944,Limited,Declining
+KARNAL,Sharfabad1,29.68888889,77.075,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Shekhpur 2(d),29.71666667,77.01666667,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Shekhpur 2(d),29.71666667,77.01666667,Pre-Monsoon,5.0,1.1430293265108975,0.977466730749297,Limited,Declining
+KARNAL,Shekhpura,29.65416667,77.03138889,Post-Monsoon,10.0,0.2598905509871135,0.7324312116786953,Reliable,Declining
+KARNAL,Sitamarhi,29.78333333,76.76666667,Post-Monsoon,9.0,-0.3451539090983945,0.07170415477239875,Limited,Improving
+KARNAL,Sitamarhi,29.78333333,76.76666667,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Sitaundi,29.56944444,76.99166667,Post-Monsoon,6.0,-0.6404133948696012,0.8629831352480369,Limited,Improving
+KARNAL,Sitaundi,29.56944444,76.99166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KARNAL,Sugar Cane Breeding Farm,29.73944444,76.97305556,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KARNAL,Sugar Cane Breeding Farm,29.73944444,76.97305556,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KARNAL,Taraori-Pz,29.79833333,76.92944444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Taraori-Pz,29.79833333,76.92944444,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Udana-Pz,29.94166667,76.98611111,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KARNAL,Udana-Pz,29.94166667,76.98611111,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Adhoya-Pz,30.06805556,76.48888889,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Adhoya-Pz,30.06805556,76.48888889,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ajrana Kalan M,30.09583333,76.77083333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ajrana Kalan S,30.09583333,76.77083333,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ajrana Kalan S,30.09583333,76.77083333,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ajrawer-PZ,30.14861111,76.68611111,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ajrawer-PZ,30.14861111,76.68611111,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bachki-Pz,30.03944444,76.75555556,Post-Monsoon,16.0,1.5022145928628106,0.8307665036692692,Reliable,Declining
+KURUKSHETRA,Bachki-Pz,30.03944444,76.75555556,Pre-Monsoon,6.0,1.5625196565285722,0.9626533395553134,Limited,Declining
+KURUKSHETRA,Badarpur-PZ,29.96027778,77.09527778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Badarpur-PZ,29.96027778,77.09527778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bakali-PZ,30.01527778,77.065,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bakali-PZ,30.01527778,77.065,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ban- Pz,29.99222222,77.09083333,Post-Monsoon,6.0,10.029814301299457,0.8916421687586445,Limited,Declining
+KURUKSHETRA,Ban- Pz,29.99222222,77.09083333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bapda-PZ,29.97277778,77.05722222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bapda-PZ,29.97277778,77.05722222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Barhan-PZ,29.99388889,77.01888889,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Barhan-PZ,29.99388889,77.01888889,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Barna-PZ,29.90916667,76.73222222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Barna-PZ,29.90916667,76.73222222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Baronda-Pz,29.95555556,77.05222222,Post-Monsoon,20.0,-0.16653903015013488,0.0669507016118683,Reliable,Improving
+KURUKSHETRA,Baronda-Pz,29.95555556,77.05222222,Pre-Monsoon,8.0,0.4302677686755427,0.7381503997895819,Limited,Declining
+KURUKSHETRA,Barshami-PZ,30.01111111,77.10694444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Barshami-PZ,30.01111111,77.10694444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Basantpur S,30.175,76.75833333,Post-Monsoon,12.0,0.5634291920451224,0.6354986755388145,Reliable,Declining
+KURUKSHETRA,Basantpur S,30.175,76.75833333,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bateri,29.92083333,76.60833333,Post-Monsoon,20.0,1.5712561652323291,0.9263473851724849,Reliable,Declining
+KURUKSHETRA,Bateri,29.92083333,76.60833333,Pre-Monsoon,10.0,1.155575548305031,0.9626040232160858,Reliable,Declining
+KURUKSHETRA,Batheri-PZ,29.93916667,76.59222222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Batheri-PZ,29.93916667,76.59222222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Berthala S,30.12916667,76.98333333,Post-Monsoon,45.0,1.1135216508702643,0.8926121314021506,Reliable,Declining
+KURUKSHETRA,Berthala S,30.12916667,76.98333333,Pre-Monsoon,18.0,1.0310742408365736,0.9682948528186536,Reliable,Declining
+KURUKSHETRA,Bhore Saidan S,29.9625,76.70416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bhore Saidan S,29.9625,76.70416667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Bodhni (m),30.05416667,76.55833333,Post-Monsoon,40.0,1.4363024135272204,0.9826968542634806,Reliable,Declining
+KURUKSHETRA,Bodhni (m),30.05416667,76.55833333,Pre-Monsoon,19.0,1.2816155654899222,0.9540527770784564,Reliable,Declining
+KURUKSHETRA,Bodhni (s),30.05416667,76.55833333,Post-Monsoon,13.0,1.2969073308472883,0.9599000467467528,Reliable,Declining
+KURUKSHETRA,Bodhni (s),30.05416667,76.55833333,Pre-Monsoon,5.0,1.3217217417043354,0.9729940586664557,Limited,Declining
+KURUKSHETRA,Brham Sarovar,29.95833333,76.79361111,Post-Monsoon,14.0,1.5340965024112418,0.9681823651700774,Reliable,Declining
+KURUKSHETRA,Brham Sarovar,29.95833333,76.79361111,Pre-Monsoon,7.0,1.6734741272794866,0.9817171417653209,Limited,Declining
+KURUKSHETRA,Budha-PZ,29.98166667,77.07444444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Budha-PZ,29.98166667,77.07444444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Buhawa M,30.1587,76.9845,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Buhawa S,30.1589,76.9837,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Busthala-PZ,30.07611111,76.72166667,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Busthala-PZ,30.07611111,76.72166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Chammukalan,30.16666667,76.7,Post-Monsoon,7.0,0.08430251039943296,0.08235073407627705,Limited,Declining
+KURUKSHETRA,Chammukalan,30.16666667,76.7,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Chanalheri-PZ,30.02222222,76.66361111,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Chanalheri-PZ,30.02222222,76.66361111,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Chhapra-Pz,30.08527778,77.06777778,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Chhapra-Pz,30.08527778,77.06777778,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Dabkhera-Pz,30.00055556,76.75361111,Post-Monsoon,17.0,0.07147380919372827,0.003049143876104038,Reliable,Declining
+KURUKSHETRA,Dabkhera-Pz,30.00055556,76.75361111,Pre-Monsoon,8.0,0.5623058674377537,0.2830209322949709,Limited,Declining
+KURUKSHETRA,Dhir Pur-PZ,30.0425,76.85472222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Dhir Pur-PZ,30.0425,76.85472222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Diwana-PZ,30.06,76.46583333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Diwana-PZ,30.06,76.46583333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Garhi Roran-PZ,29.96361111,76.73027778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Garhi Roran-PZ,29.96361111,76.73027778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ghararsi-PZ,29.91055556,76.70194444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ghararsi-PZ,29.91055556,76.70194444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gobind Garh-PZ,29.95361111,77.02916667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gobind Garh-PZ,29.95361111,77.02916667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gol Pura-PZ,30.20111111,76.81,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gol Pura-PZ,30.20111111,76.81,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gumthala Garhu-PZ,29.93638889,76.55027778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Gumthala Garhu-PZ,29.93638889,76.55027778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Hathira-PZ,29.88611111,76.7525,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Hathira-PZ,29.88611111,76.7525,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Hatira  (s),29.95,76.7625,Post-Monsoon,19.0,0.9599241463049943,0.9540736328904016,Reliable,Declining
+KURUKSHETRA,Hatira  (s),29.95,76.7625,Pre-Monsoon,11.0,0.8773887993867076,0.9832806142010435,Reliable,Declining
+KURUKSHETRA,Hatira (m),29.95,76.7625,Post-Monsoon,14.0,0.7497603802587166,0.18300918654757226,Reliable,Declining
+KURUKSHETRA,Hatira (m),29.95,76.7625,Pre-Monsoon,6.0,0.8684224509251625,0.9565286475443804,Limited,Declining
+KURUKSHETRA,Helwa-PZ,29.97388889,76.78805556,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Helwa-PZ,29.97388889,76.78805556,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ishaq,30.01666667,76.49166667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ishaque S,30.01666667,76.49166667,Post-Monsoon,48.0,1.2435067990067803,0.9479095653705519,Reliable,Declining
+KURUKSHETRA,Ishaque S,30.01666667,76.49166667,Pre-Monsoon,22.0,1.12256052588503,0.9582515282979231,Reliable,Declining
+KURUKSHETRA,Ismailpur-PZ,30.13194444,76.65416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ismailpur-PZ,30.13194444,76.65416667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ismilabad-St-Pz,30.11666667,76.66944444,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ismilabad-St-Pz,30.11666667,76.66944444,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jalbehra-PZ,30.07888889,76.66861111,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jalbehra-PZ,30.07888889,76.66861111,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jansa-Pz,30.11666667,76.7425,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jansa-Pz,30.11666667,76.7425,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jhansa-PZ,30.11444444,76.74083333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jhansa-PZ,30.11444444,76.74083333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jogna Khera,29.97361111,76.82777778,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jogna Khera,29.97361111,76.82777778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Jogna Khera-Pz,29.98611111,76.79416667,Post-Monsoon,13.0,0.7292484581257459,0.7307081005265542,Reliable,Declining
+KURUKSHETRA,Jogna Khera-Pz,29.98611111,76.79416667,Pre-Monsoon,5.0,1.1988943660671432,0.9739731749488502,Limited,Declining
+KURUKSHETRA,Kalsani-PZ,30.155,76.81833333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kalsani-PZ,30.155,76.81833333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Karaha Sahib-PZ,30.04388889,76.49416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Karaha Sahib-PZ,30.04388889,76.49416667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kaulapur D,30.025,76.89583333,Post-Monsoon,39.0,1.9921447866569084,0.2599445833426443,Reliable,Declining
+KURUKSHETRA,Kaulapur D,30.025,76.89583333,Pre-Monsoon,16.0,1.0686220291643616,0.9684341678857165,Reliable,Declining
+KURUKSHETRA,Kaulapur S,30.025,76.89583333,Post-Monsoon,8.0,0.5037666887478535,0.4480654609115327,Limited,Declining
+KURUKSHETRA,Kaulapur S,30.025,76.89583333,Pre-Monsoon,6.0,-0.40047813809944355,0.04217345150090964,Limited,Improving
+KURUKSHETRA,Kaulapur(deep),30.03472222,76.90416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Khan Pur Jattan  S Pz.,30.125,76.86277778,Post-Monsoon,5.0,0.301550293047696,0.8938541656026432,Limited,Declining
+KURUKSHETRA,Khan Pur Jattan  S Pz.,30.125,76.86277778,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Khanpur Jatta - S,30.04,76.957222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Khanpur Jattan D-Pz.,30.12694444,76.84083333,Post-Monsoon,9.0,0.46721233537848705,0.3361533982927789,Limited,Declining
+KURUKSHETRA,Khanpur Jattan D-Pz.,30.12694444,76.84083333,Pre-Monsoon,5.0,1.2793644051736577,0.7830515318707323,Limited,Declining
+KURUKSHETRA,Khanpur Jattan M -Pz,30.125,76.86083333,Post-Monsoon,11.0,0.5331733126148165,0.2531236240051314,Reliable,Declining
+KURUKSHETRA,Khanpur Jattan M -Pz,30.125,76.86083333,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Khanpur Jattta,30.125,76.86194444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kharindwa,30.10833333,76.93888889,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kheri Ran Nagar-PZ,29.93777778,76.85777778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kheri Ran Nagar-PZ,29.93777778,76.85777778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kirmach,29.90527778,76.79,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kirmach,29.90527778,76.79,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kirmach-St-Pz,29.90333333,76.7875,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Kirmach-St-Pz,29.90333333,76.7875,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ladwa 1(m),29.99583333,77.07916667,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lakhmari-PZ,30.14444444,77.02055556,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lakhmari-PZ,30.14444444,77.02055556,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Landi-PZ,30.22055556,76.86194444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Landi-PZ,30.22055556,76.86194444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lohar Majra-PZ,29.95277778,76.725,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lohar Majra-PZ,29.95277778,76.725,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lohara-Pz,30.01888889,76.9875,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lohara-Pz,30.01888889,76.9875,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lukhi-Pz,30.18222222,76.72916667,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Lukhi-Pz,30.18222222,76.72916667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Malikpur S,30.04583333,76.63333333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Malikpur S,30.04583333,76.63333333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Malikpur(shallow),30.04583333,76.63333333,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Malikpur-Singhpura-Pz,30.0,76.75138889,Post-Monsoon,8.0,2.540725997862306,0.9018731743992819,Limited,Declining
+KURUKSHETRA,Malikpur-Singhpura-Pz,30.0,76.75138889,Pre-Monsoon,5.0,1.462654810284266,0.5144440897726739,Limited,Declining
+KURUKSHETRA,Mangana-PZ,29.95583333,76.4925,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mangana-PZ,29.95583333,76.4925,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mangoli Jattan-PZ,30.12805556,77.03777778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mangoli Jattan-PZ,30.12805556,77.03777778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mathana,29.975,76.95833333,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mathana 1(m),29.98333333,76.96666667,Post-Monsoon,9.0,0.7172633276276772,0.9665782306279967,Limited,Declining
+KURUKSHETRA,Mathana 1(m),29.98333333,76.96666667,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mathana 2(d),29.98333333,76.96666667,Post-Monsoon,16.0,0.470074116830075,0.5177633426753089,Reliable,Declining
+KURUKSHETRA,Mathana 2(d),29.98333333,76.96666667,Pre-Monsoon,6.0,0.7702931735673232,0.9466503294738288,Limited,Declining
+KURUKSHETRA,Mirzapur-PZ,29.95444444,76.79361111,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mirzapur-PZ,29.95444444,76.79361111,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mohri-Dw,30.24166667,76.85277778,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mohri-Dw,30.24166667,76.85277778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mohri-Pz,30.24166667,76.85277778,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Mohri-Pz,30.24166667,76.85277778,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Morthala-PZ,30.0575,76.91472222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Morthala-PZ,30.0575,76.91472222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Murtzapur-Pz,29.98888889,76.75138889,Post-Monsoon,12.0,1.3403456689602,0.7652952737880605,Reliable,Declining
+KURUKSHETRA,Murtzapur-Pz,29.98888889,76.75138889,Pre-Monsoon,6.0,1.4274832992196356,0.9909484532660819,Limited,Declining
+KURUKSHETRA,Naisi-Pz,30.07777778,76.64305556,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Naisi-Pz,30.07777778,76.64305556,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Nalvi,30.17916667,76.78055556,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Nalvi M,30.1802,76.7819,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Nalvi S,30.1802,76.7819,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Padlu-PZ,30.18055556,76.94277778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Padlu-PZ,30.18055556,76.94277778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Pehowa (D),29.98333333,76.58055556,Post-Monsoon,47.0,1.3246131291882284,0.9474185930033486,Reliable,Declining
+KURUKSHETRA,Pehowa (D),29.98333333,76.58055556,Pre-Monsoon,21.0,1.1833877879806114,0.9664426445007185,Reliable,Declining
+KURUKSHETRA,Pehowa 2(m),29.98333333,76.58055556,Post-Monsoon,13.0,0.7841513266043254,0.02497851781798109,Reliable,Declining
+KURUKSHETRA,Pehowa 2(m),29.98333333,76.58055556,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Pehowa 3 (s),29.98333333,76.58055556,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Pehowa 3 (s),29.98333333,76.58055556,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Ram Sharan Majra-Pz,30.00166667,77.00027778,Post-Monsoon,5.0,6.6434230817455315,0.4626505502793773,Limited,Declining
+KURUKSHETRA,Ram Sharan Majra-Pz,30.00166667,77.00027778,Pre-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rao Garh-PZ,29.95666667,76.77805556,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rao Garh-PZ,29.95666667,76.77805556,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rawa-PZ,30.16666667,76.9325,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rawa-PZ,30.16666667,76.9325,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rohit-PZ,30.12555556,76.71277778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Rohit-PZ,30.12555556,76.71277778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Samalkhi-Pz,30.235,76.82777778,Post-Monsoon,5.0,0.8024150308600112,0.3487475408675605,Limited,Declining
+KURUKSHETRA,Samalkhi-Pz,30.235,76.82777778,Pre-Monsoon,6.0,2.8505517208844147,0.902775637400307,Limited,Declining
+KURUKSHETRA,Samaspur,29.95833333,76.82694444,Post-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Samaspur,29.95833333,76.82694444,Pre-Monsoon,5.0,1.4487821600251671,0.8169987387023518,Limited,Declining
+KURUKSHETRA,Santokhpur D,30.02916667,76.725,Post-Monsoon,29.0,2.794865570485681,0.2825513749881581,Reliable,Declining
+KURUKSHETRA,Santokhpur D,30.02916667,76.725,Pre-Monsoon,14.0,1.0566944567658503,0.7249789645728391,Reliable,Declining
+KURUKSHETRA,Sarai Sukhi-PZ,30.05694444,76.85777778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sarai Sukhi-PZ,30.05694444,76.85777778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sarsa-PZ,29.93138889,76.66527778,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sarsa-PZ,29.93138889,76.66527778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Shahbad 1(d),30.16666667,76.86666667,Post-Monsoon,36.0,2.785613242723643,0.3584749309710609,Reliable,Declining
+KURUKSHETRA,Shahbad 1(d),30.16666667,76.86666667,Pre-Monsoon,19.0,1.382584534431543,0.9592451211978494,Reliable,Declining
+KURUKSHETRA,Shanti Nagar-PZ,29.96611111,76.8,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Shanti Nagar-PZ,29.96611111,76.8,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sharifgarh S,30.09722222,76.875,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sharifgarh S,30.09722222,76.875,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sirsala-Pz,30.00027778,76.50194444,Post-Monsoon,7.0,-1.0415972050213844,0.2259953744357803,Limited,Improving
+KURUKSHETRA,Sirsala-Pz,30.00027778,76.50194444,Pre-Monsoon,7.0,0.3172335858908159,0.09617833897842766,Limited,Declining
+KURUKSHETRA,Sunarain Dhanani-PZ,30.10277778,76.98888889,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sunarain Dhanani-PZ,30.10277778,76.98888889,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sunder Pur-PZ,29.96,76.86416667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Sunder Pur-PZ,29.96,76.86416667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Surmi-PZ,30.01027778,76.67888889,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Surmi-PZ,30.01027778,76.67888889,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tangore-Pz,30.16166667,76.76666667,Post-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tangore-Pz,30.16166667,76.76666667,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tatka-PZ,30.04,76.95722222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tatka-PZ,30.04,76.95722222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Teokar-PZ,30.06527778,76.55166667,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Teokar-PZ,30.06527778,76.55166667,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Teora-PZ,30.12333333,76.88222222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Teora-PZ,30.12333333,76.88222222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Thana,29.90833333,76.50833333,Post-Monsoon,12.0,0.28901857766433703,0.31012469824947225,Reliable,Declining
+KURUKSHETRA,Thana,29.90833333,76.50833333,Pre-Monsoon,5.0,0.02719874350189251,0.0025856400852327433,Limited,Stable
+KURUKSHETRA,Thana (m),29.92,76.50138889,Post-Monsoon,32.0,1.3308971769933189,0.9332304049110233,Reliable,Declining
+KURUKSHETRA,Thana (m),29.92,76.50138889,Pre-Monsoon,19.0,1.3049775030459192,0.9630307846134561,Reliable,Declining
+KURUKSHETRA,Thanesar M,29.9875,76.78333333,Post-Monsoon,7.0,-0.7912229408043794,0.36061888091661765,Limited,Improving
+KURUKSHETRA,Thanesar M,29.9875,76.78333333,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Thol-PZ,30.16638889,76.70972222,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Thol-PZ,30.16638889,76.70972222,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tigri-PZ,30.13305556,76.84194444,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Tigri-PZ,30.13305556,76.84194444,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Umri-Pz,29.91666667,76.91666667,Post-Monsoon,7.0,0.6719925385959868,0.5469878096039194,Limited,Declining
+KURUKSHETRA,Umri-Pz,29.91666667,76.91666667,Pre-Monsoon,4.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Umri-PzCGWB,29.94611111,76.90611111,Post-Monsoon,3.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Umri-PzCGWB,29.94611111,76.90611111,Pre-Monsoon,2.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Urnai-PZ,30.00638889,76.62527778,Post-Monsoon,5.0,0.2569034177493969,0.38331432897898315,Limited,Declining
+KURUKSHETRA,Urnai-PZ,30.00638889,76.62527778,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Yara-PZ,30.14166667,76.95138889,Post-Monsoon,1.0,,,Insufficient,Insufficient Data
+KURUKSHETRA,Yara-PZ,30.14166667,76.95138889,Pre-Monsoon,1.0,,,Insufficient,Insufficient Data
