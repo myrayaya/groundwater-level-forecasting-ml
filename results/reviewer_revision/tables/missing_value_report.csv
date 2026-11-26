@@ -1,0 +1,31 @@
+Column,Missing_Count,Missing_Percentage
+SlNo,0,0.0
+Station,0,0.0
+Agency,0,0.0
+State LGD Code,0,0.0
+State,0,0.0
+District LGD Code,0,0.0
+District,0,0.0
+Tehsil,0,0.0
+Block,0,0.0
+Village,0,0.0
+River,0,0.0
+Basin,0,0.0
+Tributary,0,0.0
+Subtributary,0,0.0
+SubSubtributary,0,0.0
+Local River,0,0.0
+Latitude,0,0.0
+Longitude,0,0.0
+RL_MSL,1882,100.0
+Data Acquisition Time,0,0.0
+Groundwater Level Quarterly Manual (meter),0,0.0
+Month,0,0.0
+Year,0,0.0
+Season,0,0.0
+Rainfall_prev_1m,0,0.0
+Rainfall_prev_3m,0,0.0
+Rainfall_prev_6m,0,0.0
+GWL_Lag_1,0,0.0
+GWL_Lag_2,0,0.0
+GWL_Lag_3,0,0.0

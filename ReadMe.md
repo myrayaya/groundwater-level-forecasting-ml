@@ -84,6 +84,27 @@ Trend analysis is a separate component from the machine-learning prediction expe
 
 A positive slope means groundwater depth is increasing over time, which corresponds to a deeper water table. Trend classifications are exploratory screening results, not official CGWB groundwater-resource categories.
 
+## Sensitivity Analysis
+
+To reproduce the sensitivity analysis of the 204.5 m
+lagged groundwater-level observation, first run:
+
+python src/reviewer_experiments.py
+
+Then run:
+
+python src/sensitivity_analysis_204_5m.py
+
+The script compares all seven models using the complete
+chronological holdout and a second evaluation excluding
+the affected Shahbad 1(d), Kurukshetra observation.
+
+It also checks the occurrence of the 204.5 m value in
+the training, cross-validation and test partitions.
+
+Results are saved in:
+results/reviewer_revision/tables/
+
 ## Repository outputs
 
 Suggested organisation:

@@ -1,5 +1,4 @@
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-import pandas as pd
 import numpy as np
 
 def evaluate_model(model, X_train, X_test, y_train, y_test):

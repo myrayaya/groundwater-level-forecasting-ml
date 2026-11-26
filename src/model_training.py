@@ -1,178 +1,152 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
-from sklearn.model_selection import train_test_split
+from pathlib import Path
+
 from preprocessing import prepare_data, FEATURES, TARGET
 from models import get_models
 from evaluation import evaluate_model
 
-# loading the dataset 
-df = pd.read_csv("C:/programs/Groundwater_Forecasting/data/groundwater_final_dataset.csv")
 
-# preprocessing the data
-df = prepare_data(df)
+ROOT = Path(__file__).resolve().parent.parent
+DATA_PATH = ROOT / "data" / "groundwater_final_dataset.csv"
 
-# sorting chronologically
-df = df.sort_values("Data Acquisition Time").reset_index(drop=True)
+GRAPH_PATH = ROOT / "results" / "graphs" / "model_evaluation"
+PREDICTION_PATH = ROOT / "results" / "predictions"
+TABLE_PATH = ROOT / "results" / "model_comparison.csv"
 
-# chronological 80:20 splitting
-split_date = df["Data Acquisition Time"].sort_values().iloc[int(len(df) * 0.8)]
 
-train_df = df[df["Data Acquisition Time"] < split_date]
-test_df = df[df["Data Acquisition Time"] >= split_date]
+def chronological_split(df, train_ratio=0.8, gap_years=1):
+   
+    dates = sorted(df["Data Acquisition Time"].unique())
 
-X_train = train_df[FEATURES]
-X_test = test_df[FEATURES]
+    split_index = int(len(dates) * train_ratio)
+    split_date = pd.Timestamp(dates[split_index])
 
-y_train = train_df[TARGET]
-y_test = test_df[TARGET]
+    train_end = split_date - pd.DateOffset(years=gap_years)
 
-# loading the models
-models = get_models()
-results = []
-print("Models Loaded: ", models.keys())
+    train_df = df[df["Data Acquisition Time"] < train_end].copy()
+    test_df = df[df["Data Acquisition Time"] >= split_date].copy()
 
-# training and graph curation
-for name, model in models.items():
-    print(f"\nTraining {name}")
+    if train_df.empty or test_df.empty:
+        raise ValueError("Chronological split produced an empty dataset.")
 
-    # evaluating the model
-    scores = evaluate_model(
-        model, X_train, X_test, y_train, y_test
+    return train_df, test_df, train_end, split_date
+
+
+def main():
+
+    # creating output directories
+    GRAPH_PATH.mkdir(parents=True, exist_ok=True)
+    PREDICTION_PATH.mkdir(parents=True, exist_ok=True)
+    TABLE_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    # loading and preprocessing dataset
+    df = pd.read_csv(DATA_PATH)
+    df = prepare_data(df)
+
+    # chronological train-test split
+    train_df, test_df, train_end, split_date = chronological_split(df)
+
+    X_train = train_df[FEATURES]
+    X_test = test_df[FEATURES]
+
+    y_train = train_df[TARGET]
+    y_test = test_df[TARGET]
+
+    print("Training records:", len(train_df))
+    print("Testing records:", len(test_df))
+    print("Training ends before:", train_end)
+    print("Testing begins:", split_date)
+
+    # loading models
+    models = get_models()
+    results = []
+    prediction_data = test_df[
+        ["Data Acquisition Time", "District", "Station", "Season", TARGET]
+    ].copy()
+
+    prediction_data.rename(columns={
+        TARGET: "Actual",
+        "Data Acquisition Time": "Date"
+    }, inplace=True)
+
+    # training, evaluating and generating predictions
+    for name, model in models.items():
+
+        print(f"\nTraining {name}")
+
+        scores = evaluate_model(
+            model, X_train, X_test, y_train, y_test
+        )
+
+        predictions = model.predict(X_test)
+        residuals = y_test.to_numpy() - predictions
+
+        filename = name.lower().replace(" ", "_")
+
+        results.append({
+            "Model": name,
+            **scores
+        })
+
+        prediction_data[name] = predictions
+
+        # actual vs predicted graph
+        plt.figure(figsize=(8, 6))
+        plt.scatter(y_test, predictions, alpha=0.6)
+
+        plt.plot(
+            [y_test.min(), y_test.max()],
+            [y_test.min(), y_test.max()],
+            linestyle="--",
+            label="Perfect Prediction"
+        )
+
+        plt.title(f"Actual vs Predicted - {name}")
+        plt.xlabel("Actual Groundwater Level (mbgl)")
+        plt.ylabel("Predicted Groundwater Level (mbgl)")
+        plt.legend()
+        plt.tight_layout()
+
+        plt.savefig(
+            GRAPH_PATH / f"{filename}_scatter.png",
+            dpi=300
+        )
+        plt.close()
+
+        # residual graph
+        plt.figure(figsize=(8, 6))
+        plt.scatter(predictions, residuals, alpha=0.6)
+        plt.axhline(y=0, linestyle="--", label="Zero Error Line")
+
+        plt.title(f"Residual Analysis - {name}")
+        plt.xlabel("Predicted Groundwater Level (mbgl)")
+        plt.ylabel("Residuals (mbgl)")
+        plt.legend()
+        plt.tight_layout()
+
+        plt.savefig(
+            GRAPH_PATH / f"{filename}_residuals.png",
+            dpi=300
+        )
+        plt.close()
+
+    # saving model comparison
+    results_df = pd.DataFrame(results)
+    results_df.to_csv(TABLE_PATH, index=False)
+
+    # saving predictions
+    prediction_data.to_csv(
+        PREDICTION_PATH / "test_predictions.csv",
+        index=False
     )
 
-    # prediction generation
-    predictions = model.predict(X_test)
+    print("\nMODEL COMPARISON")
+    print(results_df.round(3).to_string(index=False))
 
-    # residual calculation
-    residuals = y_test.values - predictions
+    print("\nSaved model comparison:", TABLE_PATH)
+    print("Saved predictions:", PREDICTION_PATH / "test_predictions.csv")
 
-    # file name standards
-    filename = name.lower().replace(" ", "_")
 
-    # graph-1 : actual vs predicted
-    plt.figure(figsize = (8, 6))
-
-    plt.scatter(y_test, predictions, alpha = 0.6)
-    plt.plot(
-        [y_test.min(), y_test.max()],
-        [y_test.min(), y_test.max()],
-        linestyle = "--",
-        label = "Perfect Prediction"
-    )
-
-    plt.title(f"Actual Vs. Predicted - {name}")
-    plt.xlabel("Actual Groundwater Level (mbgl)")
-    plt.ylabel("Predicted Groundwater Level (mgbl)")
-    plt.legend()
-    plt.tight_layout()
-
-    plt.savefig(
-        f"results/graphs/{filename}_scatter.png",
-        dpi = 300
-    )
-    plt.close()
-
-    # graph-2 : residual analysis
-    plt.figure(figsize = (8, 6))
-
-    plt.scatter(predictions, residuals, alpha = 0.6)
-
-    plt.axhline(
-        y = 0,
-        linestyle = "--",
-        label = "Zero Error Line"
-    )
-
-    plt.title(f"Residual Analysis - {name}")
-    plt.xlabel("Predicted Groundwater Level (mbgl)")
-    plt.ylabel("Residuals (mbgl)")
-    plt.legend()
-    plt.tight_layout()
-
-    plt.savefig(
-        f"results/graphs/{filename}_residuals.png",
-        dpi=300
-    )
-
-    plt.close()
-
-    # storing model results
-    results.append({
-        "Model" : name, 
-        **scores
-    })
-
-# model comparison
-print("Number of results: ", len(results))
-print("Results: ", results)
-results_df = pd.DataFrame(results)
-
-print("Training and testing split completed.")
-
-print("\nTraining Records: ", len(X_train))
-print("Testing Records: ", len(X_test))
-
-print("\nTraining date range: ")
-print(train_df["Data Acquisition Time"].min(), "to",
-      train_df["Data Acquisition Time"].max())
-
-print("\nTesting date range: ")
-print(test_df["Data Acquisition Time"].min(), "to",
-      test_df["Data Acquisition Time"].max())
-
-print("\nModel Comparison:-")
-print(results_df.to_string(index=False))
-
-results_df.to_csv("results/model_comparison.csv", index=False)
-
-# graph-3 : MAE comparison
-plt.figure(figsize = (10, 6))
-plt.bar(results_df["Model"], results_df["MAE"])
-
-plt.title("Model Comparison - MAE")
-plt.xlabel("Machine Learning Model")
-plt.ylabel("MAE")
-plt.xticks(rotation = 35, ha = "right")
-plt.tight_layout()
-
-plt.savefig(
-    "results/graphs/mae_comparison.png",
-    dpi = 300
-)
-
-plt.close()
-
-# graph-4 : RMSE comparison
-plt.figure(figsize = (10, 6))
-plt.bar(results_df["Model"], results_df["RMSE"])
-
-plt.title("Model Comparison - RMSE")
-plt.xlabel("Machine Learning Model")
-plt.ylabel("RMSE")
-plt.xticks(rotation = 35, ha = "right")
-plt.tight_layout()
-
-plt.savefig(
-    "results/graphs/rmse_comparison.png",
-    dpi = 300
-)
-
-plt.close()
-
-# graph-5 : r2 comparison
-plt.figure(figsize= (10, 6))
-plt.bar(results_df["Model"], results_df["R2"])
-
-plt.title("Model Comparison - R2")
-plt.xlabel("Machine Learning Model")
-plt.ylabel("R2")
-plt.xticks(rotation = 35, ha = "right")
-plt.tight_layout()
-
-plt.savefig(
-    "results/graphs/r2_comparison.png",
-    dpi = 300
-)
-
-plt.close()
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,13 @@
+Item,Value
+Dataset observations,1882
+Training observations,1475
+Testing observations,407
+Unique wells,198
+Training start,1997-05-15 06:00:00
+Training end,2020-11-30 00:00:00
+Testing start,2021-11-30 06:00:00
+Testing end,2023-11-01 00:00:00
+Number of CV folds,3
+Best model by CV RMSE,Ridge Regression
+Best model parameters,{'alpha': 10.0}
+Deep well threshold (mbgl),26.13

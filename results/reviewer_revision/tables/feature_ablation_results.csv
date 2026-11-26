@@ -1,0 +1,4 @@
+Experiment,Features,MAE,RMSE,R2
+Full Features,"GWL_Lag_1, GWL_Lag_2, GWL_Lag_3, Rainfall_prev_1m, Rainfall_prev_3m, Rainfall_prev_6m",2.1957352507602232,3.217585459438161,0.9218716661862923
+Without Rainfall,"GWL_Lag_1, GWL_Lag_2, GWL_Lag_3",2.1542865926351857,3.2101982028788636,0.9222300041446921
+Without Groundwater Lags,"Rainfall_prev_1m, Rainfall_prev_3m, Rainfall_prev_6m",10.816067075107716,12.869588525503783,-0.24990701189353848
