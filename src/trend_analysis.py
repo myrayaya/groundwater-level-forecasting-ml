@@ -2,9 +2,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import linregress
+from pathlib import Path
 
-# loading the historical groundwater dataset
-df = pd.read_csv("C:/programs/Groundwater_Forecasting/data/gwl_manual_quarterly_cgwb_hr_1991_2025.csv")
+ROOT = Path(__file__).resolve().parent.parent
+DATA_PATH = ROOT / "data" / "gwl_manual_quarterly_cgwb_hr_1991_2025.csv"
+GRAPH_PATH = ROOT / "results" / "graphs"
+
+GRAPH_PATH.mkdir(parents=True, exist_ok=True)
+
+df = pd.read_csv(DATA_PATH)
 
 # converting acquisition date into datetime format
 df["Data Acquisition Time"] = pd.to_datetime(
@@ -80,7 +86,11 @@ print(
 print("\nSeasonal Observations:- ")
 print(station_counts.head(10))
 
-print("\nTotal Unique Wells: ", len(station_counts))
+print("\nTotal Station-Season Records:", len(station_counts))
+print(
+    "\nTotal Unique Wells:",
+    df[well_columns].drop_duplicates().shape[0]
+)
 
 print("\nChecking Season Classification:- ")
 print(seasonal_df["Season"].value_counts(dropna=False))
@@ -187,11 +197,11 @@ sns.countplot(
 
 plt.title("Groundwater Trend Distribution by District")
 plt.xlabel("District")
-plt.ylabel("Number of Wells")
+plt.ylabel("Number of Station-Season Records")
 plt.legend(title = "Groundwater Trend")
 plt.tight_layout()
 
-plt.savefig("results/graphs/groundwater_trend_distribution.png")
+plt.savefig(GRAPH_PATH / "groundwater_trend_distribution.png", dpi=300)
 plt.show()
 plt.close()
 
@@ -212,7 +222,7 @@ plt.ylabel("Number of Station-Season Records")
 plt.legend(title = "Data Reliability")
 plt.tight_layout()
 
-plt.savefig("results/graphs/groundwater_reliability_distribution.png")
+plt.savefig(GRAPH_PATH / "groundwater_reliability_distribution.png", dpi=300)
 plt.show()
 plt.close()
 
@@ -229,11 +239,11 @@ g = sns.catplot(
     aspect = 1.1
 )
 
-g.set_axis_labels("District", "Number of Wells")
+g.set_axis_labels("District", "Number of Station-Season Records")
 g.set_titles("{col_name}")
 g.fig.suptitle("Seasonal Groundwater Trend Comparison", y=1.05)
 
-g.savefig("results/graphs/seasonal_groundwater_trends.png")
+g.savefig(GRAPH_PATH / "seasonal_groundwater_trend.png", dpi=300)
 plt.show()
 plt.close("all")
 
@@ -278,13 +288,5 @@ for district, stations in selected_stations.items():
         plt.xticks(rotation = 45)
         plt.tight_layout()
 
-        filename = {
-            f"{district.lower()}_"
-            f"{station.lower().replace(" ", "_").replace("(", "").replace(")", "")}"
-            f"_groundwater_levels.png"
-        }
-
-        plt.savefig(f"results/graphs/{filename}", format = "png")
-        plt.show()
         plt.close()
-        print(f"Graph saved: {filename}")
+        plt.savefig(GRAPH_PATH / "station_wise_groundwater_levels.png", dpi=300, bbox_inches="tight")
