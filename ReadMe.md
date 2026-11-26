@@ -46,7 +46,7 @@ The groundwater lags are calculated within each unique well, identified using di
 3. Derive monthly rainfall totals and antecedent rainfall windows.
 4. Construct three previous-observation groundwater lag features per well.
 5. Remove records that lack required predictor or target values.
-6. Use a chronological 80/20 holdout split, keeping observations at the cutoff timestamp together.
+6. Split the observations chronologically into training and testing sets, with 1,475 training observations and 407 testing observations. The split maintains temporal ordering and avoids overlap between training and testing dates.
 
 ### Regression models
 
@@ -89,11 +89,15 @@ A positive slope means groundwater depth is increasing over time, which correspo
 To reproduce the sensitivity analysis of the 204.5 m
 lagged groundwater-level observation, first run:
 
+```text
 python src/reviewer_experiments.py
+```
 
 Then run:
 
+```text
 python src/sensitivity_analysis_204_5m.py
+```
 
 The script compares all seven models using the complete
 chronological holdout and a second evaluation excluding
@@ -113,22 +117,23 @@ Suggested organisation:
 .
 ├── data/
 │   ├── groundwater_final_dataset.csv
-│   └── README_data_sources.md
+│   └── gwl_manual_quarterly_cgwb_hr_1991_2025.csv
 ├── src/
 │   ├── preprocessing.py
 │   ├── models.py
 │   ├── evaluation.py
 │   ├── model_training.py
-│   └── trend_analysis.py
+│   ├── trend_analysis.py
+│   ├── reviewer_experiments.py
+│   └── sensitivity_analysis_204_5m.py
 ├── results/
 │   ├── model_comparison.csv
 │   ├── groundwater_trend_results.csv
-│   └── graphs/
-│       ├── trend_analysis/
-│       └── model_evaluation/
+│   ├── graphs/
+│   └── reviewer_revision/
 ├── main.py
 ├── requirements.txt
-└── README.md
+└── ReadMe.md
 ```
 
 Large raw source datasets are not included here by default. Follow the source links below and observe the data provider's terms before redistributing source data.
@@ -146,10 +151,22 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-python main.py
 ```
 
 Check the file paths in the scripts before running. The final processed dataset and any required rainfall data must be placed in the expected `data/` directory.
+
+### Execute the project
+
+Run the following scripts from the project root:
+
+```bash
+python main.py
+python src/preprocessing.py
+python src/trend_analysis.py
+python src/model_training.py
+python src/reviewer_experiments.py
+python src/sensitivity_analysis_204_5m.py
+```
 
 ## Limitations
 
